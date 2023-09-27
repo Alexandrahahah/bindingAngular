@@ -1,0 +1,19 @@
+<h1>Profil</h1>
+<p>Prénom : {{prenom}}</p>
+<p>Nom : {{nom}}</p>
+
+
+
+
+<input [(ngModel)]="name">
+<p>{{name}}</p>
+     
+<p>Date du jour : {{convertToDate()}}</p>
+<div><img [src]="imageSrc"/></div>
+
+
+
+<div class="m-5"><button type="button" [disabled]="isUnchanged">cacher mon âge</button></div>
+
+
+
